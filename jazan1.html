@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اكتشف جازان</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+            direction: rtl;
+        }
+        header {
+            background: #2E8B57;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+        }
+        nav a:hover {
+            background: #2E8B57;
+        }
+        section {
+            padding: 2rem;
+        }
+        .card {
+            background: #f4f4f4;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        .card img {
+            width: 150px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background: #444;
+            color: white;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>اكتشف جازان</h1>
+        <p>دليل لاستكشاف جمال منطقة جازان</p>
+    </header>
+    <nav>
+        <a href="#about">عن جازان</a>
+        <a href="#attractions">المعالم السياحية</a>
+        <a href="#food">الأكلات الشعبية</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+    <section id="about">
+        <h2>عن جازان</h2>
+        <p>جازان منطقة غنية بالطبيعة الخلابة والتراث الثقافي. تقع في الجنوب الغربي من المملكة العربية السعودية وتشتهر بجبالها وسواحلها الجميلة.</p>
+    </section>
+    <section id="attractions">
+        <h2>المعالم السياحية</h2>
+        <div class="card">
+            <img src="jazan_faifa.jpg" alt="جبال فيفا">
+            <div>
+                <h3>جبال فيفا</h3>
+                <p>تعد جبال فيفا من أجمل المناطق الجبلية في المملكة وتتميز بمناظرها الخلابة.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="jazan_farasan.jpg" alt="جزيرة فرسان">
+            <div>
+                <h3>جزيرة فرسان</h3>
+                <p>وجهة سياحية مثالية لعشاق الطبيعة والبحر.</p>
+            </div>
+        </div>
+    </section>
+    <section id="food">
+        <h2>الأكلات الشعبية</h2>
+        <div class="card">
+            <img src="jazan_food.jpg" alt="المغش">
+            <div>
+                <h3>المغش</h3>
+                <p>طبق لذيذ ومشهور في المنطقة.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <form>
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">البريد الإلكتروني:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">الرسالة:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 اكتشف جازان</p>
+    </footer>
+</body>
+</html>
